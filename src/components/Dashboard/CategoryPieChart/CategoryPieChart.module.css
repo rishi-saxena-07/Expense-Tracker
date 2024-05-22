@@ -1,0 +1,48 @@
+.categoryPieChart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.labelInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.labels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: small;
+  font-family: var(--ubuntu-font-family);
+}
+
+#FoodLine {
+  width: 20px;
+  height: 5px;
+  background-color: #a000ff !important;
+}
+
+.EntertainmentLine {
+  width: 20px;
+  height: 5px;
+  background-color: #ff9304;
+}
+
+.TravelLine {
+  width: 20px;
+  height: 5px;
+  background-color: #fde006;
+}
+
+.noPiechart {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: var(--ubuntu-font-family);
+}

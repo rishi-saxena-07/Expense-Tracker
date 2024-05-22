@@ -1,0 +1,101 @@
+.walletBalance {
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: #9b9b9b;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  font-family: var(--ubuntu-font-family);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.balanceAmount {
+  font-weight: 700;
+  color: #9dff5b;
+}
+
+.addIncome {
+  width: 150px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  font-family: var(--ubuntu-font-family);
+  border: none;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #b5dc52, darkgreen);
+}
+
+.addIncome:hover {
+  cursor: pointer;
+}
+
+.customModal {
+  width: 540px;
+  height: 180px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(239, 239, 239, 0.85);
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: var(--ubuntu-font-family);
+}
+
+.addBalanceForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.inputBar {
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  filter: drop-shadow(0 4px 2px #9b9b9b);
+}
+
+.addBtn {
+  width: 150px;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: #f4bb4a;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  filter: drop-shadow(0 4px 2px #9b9b9b);
+}
+
+.cancelBtn {
+  width: 100px;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: #e3e3e3;
+  font-size: 16px;
+  filter: drop-shadow(0 4px 2px #9b9b9b);
+}

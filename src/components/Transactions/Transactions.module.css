@@ -1,0 +1,67 @@
+.transactions {
+  width: 65%;
+  height: 100%;
+}
+
+.heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: var(--ubuntu-font-family);
+  color: #fff;
+}
+
+.cardsFrame {
+  padding: 1% 3%;
+  margin-top: 10px;
+  height: 95%;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.pagination {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.pageBtns {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  filter: drop-shadow(0 4px 2px #9b9b9b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pageNumber {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #43967b;
+  filter: drop-shadow(0 4px 2px #9b9b9b);
+  font-size: 20px;
+  font-family: var(--ubuntu-font-family);
+}
+
+.noExpenses {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: var(--ubuntu-font-family);
+}

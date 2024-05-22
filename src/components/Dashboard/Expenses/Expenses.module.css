@@ -1,0 +1,37 @@
+.expenses {
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: #9b9b9b;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  font-family: var(--ubuntu-font-family);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.totalExpensesAmount {
+  font-weight: 700;
+  color: darkred;
+}
+
+.addExpense {
+  width: 150px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  font-family: var(--ubuntu-font-family);
+  border: none;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #ff9595, #ff3838);
+}
+
+.addExpense:hover {
+  cursor: pointer;
+}

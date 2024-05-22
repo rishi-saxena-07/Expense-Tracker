@@ -1,0 +1,21 @@
+.dashboard {
+  height: 35%;
+  width: 100%;
+  padding: 1rem 6%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2%;
+  color: #ffffff;
+  background-color: #626262;
+}
+
+.walletAndExpenses {
+  height: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
+  width: 75%;
+}

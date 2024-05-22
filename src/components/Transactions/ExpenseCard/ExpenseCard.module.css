@@ -1,0 +1,80 @@
+.expenseCard {
+  width: 100%;
+  height: 60px;
+  margin-top: 2%;
+  padding: 5px 0;
+  border-bottom: solid 1px gray;
+  font-family: var(--ubuntu-font-family);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconAndTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.categoryIcon {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  margin: 0px 5px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
+.titleAndDate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.title {
+  font-weight: 300;
+}
+
+.date {
+  color: #9b9b9b;
+}
+
+.priceAndUpdate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.price {
+  margin-right: 15px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f4bb4a;
+}
+
+.deleteBtn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: #ff3e3e;
+  filter: drop-shadow(0 4px 2px #9b9b9b);
+  cursor: pointer;
+}
+
+.editBtn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: #f4bb4a;
+  filter: drop-shadow(0 4px 2px #9b9b9b);
+  cursor: pointer;
+}
